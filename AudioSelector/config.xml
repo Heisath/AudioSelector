@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AudioSelector>
+  <Option Name="Ton Mixed">
+    <DefaultMultimediaOut>Lautsprecher</DefaultMultimediaOut>
+    <DefaultMultimediaIn>H600 Mic</DefaultMultimediaIn>
+
+    <DefaultCommunicationsOut>H600 Headphones</DefaultCommunicationsOut>
+    <DefaultCommunicationsIn>H600 Mic</DefaultCommunicationsIn>
+  </Option>
+  <Option Name="Ton G935">
+    <DefaultMultimediaOut>G935 Headphones</DefaultMultimediaOut>
+    <DefaultMultimediaIn>G935 Mic</DefaultMultimediaIn>
+
+    <DefaultCommunicationsOut>G935 Headphones</DefaultCommunicationsOut>
+    <DefaultCommunicationsIn>G935 Mic</DefaultCommunicationsIn>
+  </Option>
+</AudioSelector>
