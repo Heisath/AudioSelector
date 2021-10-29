@@ -10,7 +10,11 @@ namespace AudioSelector
     [XmlRoot("AudioSelector")]
     public class AS
     {
+        [XmlElement("Startup")]
+        public StartupDefault Startup { get; set; }
+
         [XmlElement("Option")]
         public List<Option> Options { get; set; }
+        
     }
 }

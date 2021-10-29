@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <AudioSelector>
+  
+  <!-- The startup structure defines what happens on program launch, it is entirely optional -->
+  <Startup DefaultOption="Ton G935"> <!-- DefaultOption specifies which of the defined options to select on startup, if left out, no option is selected -->
+    <DeviceVolume DeviceName="H600 Mic" Volume="50"/> <!-- A number of DeviceVolume Elements can be specified, these set a given device to a volume -->
+    <DeviceVolume DeviceName="G935 Mic" Volume="20"/>
+  </Startup>
+
+  <!-- Multiple options can be defined, each needs a name and Default Devices -->
   <Option Name="Ton Mixed">
     <DefaultMultimediaOut>Lautsprecher</DefaultMultimediaOut>
     <DefaultMultimediaIn>H600 Mic</DefaultMultimediaIn>
